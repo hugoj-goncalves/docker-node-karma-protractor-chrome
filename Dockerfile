@@ -10,6 +10,6 @@ RUN apt-get update && \
     openjdk-11-jre-headless \
     && rm -rf /var/lib/apt/lists/*
 
-USER node
+# USER node
 
 ENV CHROME_BIN /usr/bin/chromium
