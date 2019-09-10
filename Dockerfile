@@ -13,6 +13,6 @@ RUN sed -i -e 's/v3.9/edge/g' /etc/apk/repositories \
     chromium \
     && apk upgrade --no-cache --available
 
-USER node
+# USER node
 
 ENV CHROME_BIN /usr/bin/chromium-browser
